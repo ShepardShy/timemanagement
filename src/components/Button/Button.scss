@@ -1,0 +1,26 @@
+button {
+    width: 170px;
+    display: grid;
+    color: #FAFAFA;
+    padding: 5px 0px;
+    letter-spacing: 1px;
+    align-items: center;
+    transition: 0.2s all;
+    background-color: #1C1E2A;
+
+    font: {
+        weight: 500;
+        size: 12px;
+    }
+    
+    border: {
+        color: #A5277A;
+        style: solid;
+        width: 1px;
+        radius: 4px;
+    }
+
+    &:hover {
+        filter: brightness(1.1);
+    }
+}

@@ -1,0 +1,13 @@
+.compilator__header {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.compilator__main {
+    height: 93%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 280px;
+    grid-template-columns: repeat(2, 1fr);
+}

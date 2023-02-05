@@ -1,0 +1,108 @@
+[
+    {
+        "title": "Навигация",
+        "links": [
+            {
+                "id": 0,
+                "title": "Календарь",
+                "link": "/calendar",
+                "img": "/imgSettings/calendar.png",
+                "icon": "/menuIcons/calendar.svg",
+                "status": false
+            },
+            {
+                "id": 1,
+                "title": "Облако",
+                "link": "/cloud",
+                "icon": "/menuIcons/cloud.svg",
+                "img": "/imgSettings/cloud.png",
+                "status": false
+            },
+            {
+                "id": 2,
+                "title": "Статьи",
+                "link": "/article",
+                "img": "/imgSettings/article.png",
+                "icon": "/menuIcons/article.svg",
+                "status": false
+            },
+            {
+                "id": 3,
+                "title": "Компилятор JS",
+                "link": "/compilator",
+                "img": "/imgSettings/compilator.png",
+                "icon": "/menuIcons/compilator.svg",
+                "status": true
+            },
+            {
+                "id": 4,
+                "title": "Кинотеатр",
+                "link": "/cinema",
+                "img": "/imgSettings/cinema.png",
+                "icon": "/menuIcons/cinema.svg",
+                "status": false
+            },
+            {
+                "id": 5,
+                "title": "Органайзер",
+                "link": "/organaiser",
+                "icon": "/menuIcons/organaiser.svg",
+                "img": "/imgSettings/organaiser.png",
+                "status": true
+            },
+            {
+                "id": 6,
+                "title": "Гитара",
+                "link": "/guitar",
+                "img": "/imgSettings/guitar.png",
+                "icon": "/menuIcons/guitar.svg",
+                "status": false
+            },
+            {
+                "id": 7,
+                "title": "Тренировки",
+                "link": "/sport",
+                "img": "/imgSettings/sport.png",
+                "icon": "/menuIcons/sport.svg",
+                "status": false
+            },
+            {
+                "id": 8,
+                "title": "Музыка",
+                "link": "/music",
+                "img": "/imgSettings/music.png",
+                "icon": "/menuIcons/music.svg",
+                "status": false
+            }
+        ]
+    },
+    {
+        "title": "Аккаунт",
+        "links": [
+            {
+                "title": "Профиль",
+                "link": "/profile",
+                "icon": "/menuIcons/profile.svg",
+                "status": false
+            },
+            {
+                "title": "Друзья",
+                "link": "/friends",
+                "icon": "/menuIcons/friends.svg",
+                "status": false
+            },
+            {
+                "title": "Настройки",
+                "link": "/settings",
+                "icon": "/menuIcons/settings.svg",
+                "status": true
+            },
+            {
+                "title": "Выход",
+                "link": "/exit",
+                "icon": "/menuIcons/exit.svg",
+                "status": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "title": "Здоровье и спорт",
+        "type": "health"
+    },
+    {
+        "id": 1,
+        "title": "Окружение",
+        "type": "environment"
+    },
+    {
+        "id": 2,
+        "title": "Семья",
+        "type": "family"
+    },
+    {
+        "id": 3,
+        "title": "Карьера и бизнес",
+        "type": "career"
+    },
+    {
+        "id": 4,
+        "title": "Доходы",
+        "type": "finance"
+    },
+    {
+        "id": 5,
+        "title": "Духовность и творчество",
+        "type": "spirit"
+    },
+    {
+        "id": 6,
+        "title": "Личностный рост",
+        "type": "myself"
+    },
+    {
+        "id": 7,
+        "title": "Яркость жизни",
+        "type": "brightness"
+    }
+]

@@ -1,0 +1,28 @@
+.fast-add__toggle {
+}
+
+label.toggle {
+    display: flex;
+    width: 36px;
+    height: 19px;
+    background-color: #59595A;
+    border: 2px solid #59595A;
+    border-radius: 99em;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: 50% 50%;
+    cursor: pointer;
+
+    &:before {
+        transition: transform 0.3s ease;
+        content: "";
+        display: block;
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background-color: rgba(255, 255, 255, 0.85);;
+        border-radius: 50%;
+        top: -0.6px;
+        left: 0px;
+    }
+}    

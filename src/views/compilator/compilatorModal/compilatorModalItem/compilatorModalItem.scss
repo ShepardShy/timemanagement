@@ -1,0 +1,13 @@
+.compilator__modal {
+    .modal__item {
+        padding: 15px;
+        border-radius: 2px;
+        transition: 0.2s all;
+        background: #242739;
+
+        &:hover {
+            cursor: pointer;
+            filter: brightness(1.1);
+        }
+    }
+}

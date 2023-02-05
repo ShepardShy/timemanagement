@@ -1,0 +1,13 @@
+.table__body {
+    .table__row {
+        height: 25px;
+
+        &:nth-child(odd) {
+            background: #36394C;
+        }
+    }
+
+    .table__item {
+        color: #ECEBEB;
+    }
+}

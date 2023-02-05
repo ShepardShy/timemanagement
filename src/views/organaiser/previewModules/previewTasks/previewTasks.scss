@@ -1,0 +1,19 @@
+.task {
+    position: relative;
+
+    &.organaiser__section {
+        .section__title {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .section__body {
+            height: 225px;
+            background: transparent;
+        }
+
+        button {
+            width: 150px;
+        }
+    }
+}
