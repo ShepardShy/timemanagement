@@ -1,0 +1,115 @@
+.task-plate {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    border-radius: 4px;
+    width: 230px;
+
+    &.task-plate_health {
+        border: 0.5px solid #FF0000;
+    }
+    &.task-plate_environment {
+        border: 0.5px solid #FFA600;
+    }
+    &.task-plate_family {
+        border: 0.5px solid #FFE600;
+    }
+    &.task-plate_career {
+        border: 0.5px solid #48FF00;
+    }
+    &.task-plate_finance {
+        border: 0.5px solid #4AB3FF;
+    }
+    &.task-plate_spirit {
+        border: 0.5px solid #1100FF;
+    }
+    &.task-plate_myself {
+        border: 0.5px solid #9900FF;
+    }
+    &.task-plate_brightness {
+        border: 0.5px solid #FF0095;
+    }
+}
+
+.task-plate__header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    &.task-plate_health {
+        border-bottom: 0.5px solid #FF0000;
+    }
+    &.task-plate_environment {
+        border-bottom: 0.5px solid #FFA600;
+    }
+    &.task-plate_family {
+        border-bottom: 0.5px solid #FFE600;
+    }
+    &.task-plate_career {
+        border-bottom: 0.5px solid #48FF00;
+    }
+    &.task-plate_finance {
+        border-bottom: 0.5px solid #4AB3FF;
+    }
+    &.task-plate_spirit {
+        border-bottom: 0.5px solid #1100FF;
+    }
+    &.task-plate_myself {
+        border-bottom: 0.5px solid #9900FF;
+    }
+    &.task-plate_brightness {
+        border-bottom: 0.5px solid #FF0095;
+    }
+}
+
+.task-plate__title {
+    width: 100%;
+}
+
+.task-plate__body {
+    overflow-y: auto;
+    max-height: 200px;
+
+    & > *:nth-child(odd) {
+        background: #2b2d3d;
+    }
+
+    /* scrollbar для Chrome/Edge/Safari */
+    &::-webkit-scrollbar {
+        height: 8px;
+        width: 8px;
+        border-radius: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #31313C;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #59595A;
+        border-radius: 5px;
+        border: 2px solid #31313C;
+    }
+}
+
+.task-plate__task {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    &:last-child {
+        border-radius: 0px 0px 4px 4px;
+    }
+}
+
+.task-plate__task-title {
+    padding: 10px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

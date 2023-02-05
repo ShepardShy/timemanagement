@@ -1,0 +1,152 @@
+[
+    {
+        "id": 0,
+        "title": "Здоровье и спорт",
+        "color": "#FF0000",
+        "progress": 9,
+        "type": "health",
+        "tasks": [
+            {
+                "id": 0,
+                "title": "Держать планку >1 мин Держать планку >1 мин Держать планку >1 мин Держать планку >1 мин",
+                "status": true
+            },
+            {
+                "id": 1,
+                "title": "Отжиматься >40 раз",
+                "status": false
+            },
+            {
+                "id": 2,
+                "title": "Приседать > 30 раз",
+                "status": true
+            },
+            {
+                "id": 3,
+                "title": "Вернуть пресс",
+                "status": false
+            },
+            {
+                "id": 4,
+                "title": "Подтягивания > 20 раз",
+                "status": false
+            },
+            {
+                "id": 1,
+                "title": "Отжиматься >40 раз",
+                "status": false
+            },
+            {
+                "id": 2,
+                "title": "Приседать > 30 раз",
+                "status": true
+            },
+            {
+                "id": 3,
+                "title": "Вернуть пресс",
+                "status": false
+            },
+            {
+                "id": 4,
+                "title": "Подтягивания > 20 раз",
+                "status": false
+            },
+            {
+                "id": 1,
+                "title": "Отжиматься >40 раз",
+                "status": false
+            },
+            {
+                "id": 2,
+                "title": "Приседать > 30 раз",
+                "status": true
+            },
+            {
+                "id": 3,
+                "title": "Вернуть пресс",
+                "status": false
+            },
+            {
+                "id": 4,
+                "title": "Подтягивания > 20 раз",
+                "status": false
+            },
+            {
+                "id": 1,
+                "title": "Отжиматься >40 раз",
+                "status": false
+            },
+            {
+                "id": 2,
+                "title": "Приседать > 30 раз",
+                "status": true
+            },
+            {
+                "id": 3,
+                "title": "Вернуть пресс",
+                "status": false
+            },
+            {
+                "id": 4,
+                "title": "Подтягивания > 20 раз",
+                "status": false
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Окружение",
+        "color": "#FF7A00",
+        "progress": 10,
+        "type": "environment",
+        "tasks": []
+    },
+    {
+        "id": 2,
+        "title": "Семья",
+        "color": "#FFC700",
+        "progress": 3,
+        "type": "family",
+        "tasks": []
+    },
+    {
+        "id": 3,
+        "title": "Карьера и бизнес",
+        "color": "#3CC008",
+        "progress": 4,
+        "type": "career",
+        "tasks": []
+    },
+    {
+        "id": 4,
+        "title": "Доходы",
+        "color": "#38A7F8",
+        "progress": 5,
+        "type": "finance",
+        "tasks": []
+    },
+    {
+        "id": 5,
+        "title": "Духовность и творчество",
+        "color": "#1100FF",
+        "progress": 6,
+        "type": "spirit",
+        "tasks": []
+    },
+    {
+        "id": 6,
+        "title": "Личностный рост",
+        "color": "#9900FF",
+        "progress": 7,
+        "type": "myself",
+        "tasks": []
+    },
+    {
+        "id": 7,
+        "title": "Яркость жизни",
+        "color": "#FF0095",
+        "progress": 8,
+        "type": "brightness",
+        "tasks": []
+    }
+]

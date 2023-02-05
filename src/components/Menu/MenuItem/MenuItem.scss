@@ -1,0 +1,24 @@
+.menu__item {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    cursor: default;
+}
+
+.menu__item-icon {
+    width: 20px;
+    height: 20px;
+}
+.menu__item-link {
+    font-size: 16px;
+    transition: 0.2s all;
+    cursor: pointer;
+
+    &:hover {
+        color: #EA4782;
+    }
+}
+
+.menu__item_active {
+    color: #EA4782;
+}

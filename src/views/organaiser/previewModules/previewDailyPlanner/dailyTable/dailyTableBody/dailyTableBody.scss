@@ -1,0 +1,9 @@
+.dayly-planner {
+    .table__body {
+        .table__row {
+            &:nth-child(odd) {
+                background: transparent;
+            }
+        }
+    }
+}

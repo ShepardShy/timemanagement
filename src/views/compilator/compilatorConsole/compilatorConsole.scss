@@ -1,0 +1,9 @@
+.compilator__section {
+    &.console {
+        grid-column: 1/3;
+
+        .section__body {
+            height: 220px;
+        }
+    }
+}

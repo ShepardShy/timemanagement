@@ -1,0 +1,42 @@
+.settings__filter {
+    &.filter {
+        gap: 15px;
+        gap: 12px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .filter__item {
+        cursor: pointer;
+        color: #DEDCDC;
+        line-height: 21px;
+        padding-bottom: 5px;
+        transition: 0.2s all;
+        text-transform: capitalize;
+    
+        font: {
+            weight: 400;
+            size: 17px;
+        }
+
+        &:hover {
+            color: #EA4782;
+        }
+    }
+
+    .filter__item_active {
+        display: flex;
+        color: #EA4782;
+        position: relative;
+        justify-content: center;
+    
+        &::before {
+            content: "";
+            width: 85%;
+            bottom: 2px;
+            height: 2px;
+            position: absolute;
+            background-color: #EA4782;
+        }
+    }
+}

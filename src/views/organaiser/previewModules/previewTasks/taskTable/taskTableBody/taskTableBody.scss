@@ -1,0 +1,12 @@
+.task__table {
+    .table__body {
+        display: grid;
+        padding: 0px 5px;
+        justify-items: start;
+
+        grid: {
+            template-columns: repeat(4, 90px);
+            gap: 0px 30px;
+        }
+    }
+}

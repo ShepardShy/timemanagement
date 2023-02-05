@@ -1,0 +1,14 @@
+.diagram {
+    width: 400px;
+    height: 155px;
+    position: relative;
+    border-radius: 50%;
+
+    &::before {
+        content: url('/diagram/diagramCircle.svg')
+    }
+
+    .diagram__svg {
+        position: absolute;
+    }
+}

@@ -1,0 +1,22 @@
+menu {
+    margin-left: 20px;
+
+    &:not(:last-child) {
+        margin-bottom: 40px;
+    }
+}
+
+.menu__title {
+    font-weight: 400;
+    color: #EA4782;
+    line-height: 17px;
+    margin-bottom: 15px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+}
+
+.menu__item {
+    &:not(:last-child) {
+        margin-bottom: 15px;
+    }
+}

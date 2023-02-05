@@ -1,0 +1,15 @@
+.table__row {
+    display: grid;
+    padding: 0px 5px;
+    align-items: center;
+
+    grid: {
+        gap: 0px 30px;
+    }
+
+    &.table__row_nest {
+        .table__item:first-child {
+            margin-left: 15px;
+        }
+    }
+}

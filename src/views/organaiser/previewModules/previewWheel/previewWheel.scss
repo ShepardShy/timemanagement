@@ -1,0 +1,25 @@
+.wheel {
+    grid-column: 1/3;
+
+    &.organaiser__section {
+        .section__title {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .section__body {
+            height: 585px;
+            overflow: hidden;
+            background: #1C1E2A;
+        }
+
+        button {
+            width: 150px;
+        }
+
+        .diagram {
+            top: 45px;
+            left: 305px;
+        }
+    }
+}

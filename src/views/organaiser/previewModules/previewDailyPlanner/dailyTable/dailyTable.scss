@@ -1,0 +1,77 @@
+.daily__table {
+    .table__row {
+        grid: {
+            template-columns: 40px 100px 1fr;
+            gap: 10px;
+        }
+    }
+
+    .table__body {
+        .table__item:last-child {
+            width: 285px;
+            display: flex;
+
+            span {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+
+        .table__item:first-child {
+            gap: 5px;
+            display: flex;
+            align-items: center;
+
+            &::before {
+                content: '';
+                width: 8px;
+                height: 8px;
+                border-radius: 10px;
+                background: #fafafa;
+            }
+
+            &.table__item_health {
+                &::before {
+                    background: #FF0000;
+                }
+            }
+            &.table__item_environment {
+                &::before {
+                    background: #FFA600;
+                }
+            }
+            &.table__item_family {
+                &::before {
+                    background: #FFE600;
+                }
+            }
+            &.table__item_career {
+                &::before {
+                    background: #48FF00;
+                }
+            }
+            &.table__item_finance {
+                &::before {
+                    background: #4AB3FF;
+                }
+            }
+            &.table__item_spirit {
+                &::before {
+                    background: #1100FF;
+                }
+            }
+            &.table__item_myself {
+                &::before {
+                    background: #9900FF;
+                }
+            }
+            &.table__item_brightness {
+                &::before {
+                    background: #FF0095;
+                }
+            }
+        }
+    }
+}
+

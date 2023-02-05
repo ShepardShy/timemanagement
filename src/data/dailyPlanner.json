@@ -1,0 +1,73 @@
+[
+    {
+        "id": 0,
+        "type": "health",
+        "title": "Действие 1",
+        "time": "00:00",
+        "nesting": null
+    },
+    {
+        "id": 1,
+        "type": "health",
+        "title": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis ea, fugiat reprehenderit magnam tempora suscipit vitae consequatur quas pariatur animi facilis perspiciatis accusamus.",
+        "time": "00:00",
+        "nesting": null
+    },
+    {
+        "id": 2,
+        "type": "environment",
+        "title": "Действие 3",
+        "time": "00:00",
+        "nesting": null
+    },
+    {
+        "id": 3,
+        "type": "environment",
+        "title": "Действие 4",
+        "time": "00:00",
+        "nesting": [
+            {
+                "id": 0,
+                "type": "health",
+                "title": "Действие 4.1",
+                "time": "00:00",
+                "nesting": null
+            },
+            {
+                "id": 1,
+                "type": "health",
+                "title": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis ea, fugiat reprehenderit magnam tempora suscipit vitae consequatur quas pariatur animi facilis perspiciatis accusamus.",
+                "time": "00:00",
+                "nesting": null
+            },
+            {
+                "id": 2,
+                "type": "environment",
+                "title": "Действие 4.3",
+                "time": "00:00",
+                "nesting": null
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": "spirit",
+        "title": "Действие 5",
+        "time": "00:00",
+        "nesting": null
+    },
+    {
+        "id": 5,
+        "type": "spirit",
+        "title": "Действие 6",
+        "time": "00:00",
+        "nesting": null
+    },
+    {
+        "id": 6,
+        "type": "brightness",
+        "title": "Действие 7",
+        "time": "00:00",
+        "nesting": null
+    }
+]

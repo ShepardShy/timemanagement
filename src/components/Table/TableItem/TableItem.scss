@@ -1,0 +1,23 @@
+.table__item {
+    font-size: 14px;
+    line-height: 17px;
+
+    font: {
+        weight: 400;
+    }
+    
+    &.table__item_strikeout {
+        span {
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 7px;
+                left: 0px;
+                height: 3px;
+                width: 100%;
+            }
+        }
+    }
+}
