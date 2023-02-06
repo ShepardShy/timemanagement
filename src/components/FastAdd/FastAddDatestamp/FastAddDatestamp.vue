@@ -1,23 +1,25 @@
 <template>
     <div class="fast-add__item">
-        <label class="fast-add__item-title" :for="`fast-add__textarea-${props.item.id}`">
+        <label class="fast-add__item-title" :for="`fast-add__datestamp-${props.item.id}`">
             <span>
                 {{ props.item.title }}
             </span>
         </label>
-        <textarea class="fast-add__textarea" v-model="props.item.value" :id="`fast-add__textarea-${props.item.id}`"></textarea>
+        <div class="fast-add__input">
+            <input type="date" class="fast-add__datestamp" v-model="props.item.value" :id="`fast-add__datestamp-${props.item.id}`">
+        </div>
     </div>
 </template>
 
 <script setup>
-    import './FastAddTextarea.scss';
+    import './FastAddDatestamp.scss';
     
     const props = defineProps({
         item: {
             default: {
                 id: -1,
                 value: '',
-                title: 'Комментарий'
+                title: 'Дата'
             },
             type: Object
         }

@@ -1,0 +1,124 @@
+.tasks-table__item {
+    padding: 5px 0px;
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+
+    label {
+        width: 100%;
+    }
+
+    &::before {
+        content: '';
+        min-width: 10px;
+        min-height: 10px;
+        border-radius: 10px;
+        margin-top: 2px;
+        background: #fafafa;
+    }
+
+    &.tasks-table__item_health {
+        &::before {
+            background: #FF0000;
+        }
+        
+        &.tasks-table__item_strikeout {
+            span {
+                &::before {
+                    background: #FF0000;
+                }
+            }
+        }
+    }
+    &.tasks-table__item_environment {
+        &::before {
+            background: #FFA600;
+        }
+        
+        &.tasks-table__item_strikeout {
+            span {
+                &::before {
+                    background: #FFA600;
+                }
+            }
+        }
+    }
+    &.tasks-table__item_family {
+        &::before {
+            background: #FFE600;
+        }
+        
+        &.tasks-table__item_strikeout {
+            span {
+                &::before {
+                    background: #FFE600;
+                }
+            }
+        }
+    }
+    &.tasks-table__item_career {
+        &::before {
+            background: #48FF00;
+        }
+        
+        &.tasks-table__item_strikeout {
+            span {
+                &::before {
+                    background: #48FF00;
+                }
+            }
+        }
+    }
+    &.tasks-table__item_finance {
+        &::before {
+            background: #4AB3FF;
+        }
+        
+        &.tasks-table__item_strikeout {
+            span {
+                &::before {
+                    background: #4AB3FF;
+                }
+            }
+        }
+    }
+    &.tasks-table__item_spirit {
+        &::before {
+            background: #1100FF;
+        }
+        
+        &.tasks-table__item_strikeout {
+            span {
+                &::before {
+                    background: #1100FF;
+                }
+            }
+        }
+    }
+    &.tasks-table__item_myself {
+        &::before {
+            background: #9900FF;
+        }
+        
+        &.tasks-table__item_strikeout {
+            span {
+                &::before {
+                    background: #9900FF;
+                }
+            }
+        }
+    }
+    &.tasks-table__item_brightness {
+        &::before {
+            background: #FF0095;
+        }
+        
+        &.tasks-table__item_strikeout {
+            span {
+                &::before {
+                    background: #FF0095;
+                }
+            }
+        }
+    }
+}
