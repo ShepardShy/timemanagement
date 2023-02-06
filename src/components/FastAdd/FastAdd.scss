@@ -1,0 +1,47 @@
+.fast-add {
+    display: flex;
+    flex-direction: column;
+
+    .section__body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background: inherit;
+    }
+}
+
+.fast-add__content {
+    flex: 1 0 auto;
+
+    & > * {
+        margin-bottom: 15px;
+    }
+}
+
+.fast-add__item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fast-add__item-title {
+    font-weight: 500;
+    line-height: 12px;
+    margin-bottom: 10px;
+}
+
+.fast-add__datestamp-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fast-add__button {
+    align-self: end;
+}
+
+.fast-add__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

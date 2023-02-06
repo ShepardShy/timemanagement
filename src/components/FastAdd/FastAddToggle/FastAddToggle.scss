@@ -1,4 +1,19 @@
-.fast-add__toggle {
+.fast-add__item.fast-add__toggle {
+    gap: 5px;
+    flex-direction: row;
+    align-items: center;
+
+    input[type="checkbox"] {
+        display: none;
+        &:checked+label.toggle {
+            background-color: rgba(255, 255, 255, 0.85);
+            border: 2px solid rgba(255, 255, 255, 0.85);
+            &:before {
+                transform: translateX(16px);
+                background-color: #1C1E2A;
+            }
+        }
+    }
 }
 
 label.toggle {

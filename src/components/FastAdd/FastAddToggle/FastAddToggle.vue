@@ -1,7 +1,10 @@
 <template>
-    <div class="fast-add__toggle">
-        <input type="checkbox" :id="`fast-add-toggle_${props.item.id}`" :value="props.item.status"/>
-        <label class="toggle" :for="`fast-add-toggle_${props.item.id}`" @click="moduleStore.toggleStatus(props.item.id)"> {{ props.item.title }} </label>
+    <div class="fast-add__item fast-add__toggle">
+        <input type="checkbox" :id="`fast-add-toggle_${props.item.id}`" v-model="props.item.status"/>
+        <label class="toggle" :for="`fast-add-toggle_${props.item.id}`"></label>
+        <span>
+            {{ props.item.title }}
+        </span>
     </div>
 </template>
 

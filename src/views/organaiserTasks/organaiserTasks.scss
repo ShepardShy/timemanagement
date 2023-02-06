@@ -6,13 +6,19 @@
     margin-bottom: 30px;
 }
 
+.tasks__main {
+    display: flex;
+    gap: 15px;
+}
+
 .tasks__inform {
     display: grid;
     grid: repeat(2, 430px) / repeat(2, 350px);
     grid-gap: 15px;
 }
 
-.tasks__legend {
-    right: 20px;
-    bottom: 20px;
+.tasks__action {
+    & > *:not(:last-child) {
+        margin-bottom: 20px;
+    }
 }
