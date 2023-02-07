@@ -1,0 +1,85 @@
+.daily-planner__table {
+    .table__body {
+        .table__row{      
+            &.table__row_nesting {
+                height: max-content;
+            }
+
+            &:nth-child(odd) {
+                background: transparent;
+            }
+
+            &::before {
+                content: '';
+                width: 8px;
+                height: 8px;
+                border-radius: 10px;
+                background: #fafafa;
+            }
+        
+            &.table__row_health {
+                &::before {
+                    background: #FF0000;
+                }
+            }
+            &.table__row_environment {
+                &::before {
+                    background: #FFA600;
+                }
+            }
+            &.table__row_family {
+                &::before {
+                    background: #FFE600;
+                }
+            }
+            &.table__row_career {
+                &::before {
+                    background: #48FF00;
+                }
+            }
+            &.table__row_finance {
+                &::before {
+                    background: #4AB3FF;
+                }
+            }
+            &.table__row_spirit {
+                &::before {
+                    background: #1100FF;
+                }
+            }
+            &.table__row_myself {
+                &::before {
+                    background: #9900FF;
+                }
+            }
+            &.table__row_brightness {
+                &::before {
+                    background: #FF0095;
+                }
+            }
+        }
+
+        .table__row_nest {
+            grid-column: 1/6;
+
+            .table__row {
+                padding: 0px 0px 0px 15px;
+            }
+        }
+
+        .table__item {
+            white-space: nowrap;
+            overflow: hidden; 
+            text-overflow: ellipsis;
+        }
+
+        .daily-planner-table__item-actions {
+            display: flex;
+            gap: 5px;
+        }
+        .daily-planner-table__item-action {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
