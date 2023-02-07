@@ -1,11 +1,15 @@
 .tasks-table__item {
     padding: 5px 0px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 5px;
 
     label {
         width: 100%;
+        max-width: 235px;
+        white-space: nowrap;
+        overflow: hidden; 
+        text-overflow: ellipsis;
     }
 
     &::before {
@@ -121,4 +125,14 @@
             }
         }
     }
+}
+
+.task-table__item-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.task-table__item-action {
+    width: 20px;
+    height: 20px;
 }

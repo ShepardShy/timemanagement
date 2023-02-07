@@ -2,9 +2,11 @@
     <vSection class="dayly-planner organaiser__section section_shadow">
         <template v-slot:title>
             <div class="dayly-planner__title">Распорядок дня</div>
-            <vButton>
+            <vButton> 
                 <template v-slot:title>
-                    Перейти
+                    <router-link to="/organaiser/daily-planner"> 
+                        Перейти
+                    </router-link>
                 </template>
             </vButton>
         </template>

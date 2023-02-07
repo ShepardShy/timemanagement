@@ -1,0 +1,21 @@
+.daily-planner__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.daily-planner__body {
+    grid-row: 1/6;
+
+    .section__title {
+        display: none;
+    }
+}
+
+.daily-planner__main {
+    display: grid;
+    grid-template-columns: 720px 300px;
+    grid-gap: 15px;
+    height: 95%;
+}

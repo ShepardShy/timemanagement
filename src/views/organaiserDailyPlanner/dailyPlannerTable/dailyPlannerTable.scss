@@ -1,0 +1,9 @@
+.daily-planner__table {
+    .table__row {
+        grid: {
+            template-columns: 10px 10px 90px 1fr 45px;
+            gap: 5px;
+        }
+    }
+}
+

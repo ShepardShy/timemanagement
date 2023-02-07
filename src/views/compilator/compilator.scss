@@ -10,4 +10,8 @@
     grid-gap: 10px;
     grid-template-rows: 1fr 280px;
     grid-template-columns: repeat(2, 1fr);
+
+    .section__body {
+        background: #242739;
+    }
 }

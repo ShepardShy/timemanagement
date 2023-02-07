@@ -2,11 +2,11 @@
     <vMain class="compilator">
         <div class="compilator__header">
             <pageTitle> {{ $route.name }} </pageTitle>
-            <vbutton @click="showModal('library')">
+            <vButton @click="showModal('library')">
                 <template v-slot:title>
                     Библиотека
                 </template>
-            </vbutton>
+            </vButton>
         </div>
         <div class="compilator__main">
             <compilatorCode />
@@ -33,7 +33,7 @@
     import { ref } from 'vue';
     import './compilator.scss';
     import vMain from'@/components/Main/vMain.vue'
-    import vbutton from '@/components/Button/Button.vue'
+    import vButton from '@/components/Button/Button.vue'
     import pageTitle from '@/components/PageTitle/PageTitle.vue'
 
     import compilatorCode from './compilatorCode/compilatorCode.vue'
