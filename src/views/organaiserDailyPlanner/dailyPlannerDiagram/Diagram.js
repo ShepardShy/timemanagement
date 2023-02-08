@@ -2,8 +2,8 @@ export default {
     // Подсчет типов
     analizingType(tasks) {
         for (let task of tasks) {
-            if (task.details != null) {
-                for (let detail of task.details) {
+            if (task.nesting != null) {
+                for (let detail of task.nesting) {
                     switch (detail.type) {
                         case 'health':
                             percents[0].count++
@@ -64,7 +64,7 @@ export default {
                     break;
             }
         }
-        return initPercent()
+        return initPercent(); 
     }
 }
 
@@ -79,6 +79,11 @@ const initPercent = () => {
     let count = 0
     percents.forEach(elem => {
         elem.percent = (part * elem.count) + count
+        if (count == 0) {
+            elem.percent_split = 1
+        } else {
+            elem.percent_split = count + 1
+        }
         count = elem.percent
     });
 
@@ -92,6 +97,7 @@ let percents = [{
         count: 0,
         percent: 0,
         index: 7,
+        percent_split: 0,
         color: '#ff0000'
     },
     {
@@ -100,6 +106,7 @@ let percents = [{
         count: 0,
         percent: 0,
         index: 6,
+        percent_split: 0,
         color: '#ffa600'
     },
     {
@@ -108,6 +115,7 @@ let percents = [{
         count: 0,
         percent: 0,
         index: 5,
+        percent_split: 0,
         color: '#ffe600'
     },
     {
@@ -116,6 +124,7 @@ let percents = [{
         count: 0,
         percent: 0,
         index: 4,
+        percent_split: 0,
         color: '#48ff00'
     },
     {
@@ -124,6 +133,7 @@ let percents = [{
         count: 0,
         percent: 0,
         index: 3,
+        percent_split: 0,
         color: '#4AB3FF'
     },
     {
@@ -132,6 +142,7 @@ let percents = [{
         count: 0,
         percent: 0,
         index: 2,
+        percent_split: 0,
         color: '#1100ff'
     },
     {
@@ -140,6 +151,7 @@ let percents = [{
         count: 0,
         percent: 0,
         index: 1,
+        percent_split: 0,
         color: '#9900ff'
     },
     {
@@ -148,6 +160,7 @@ let percents = [{
         count: 0,
         percent: 0,
         index: 0,
+        percent_split: 0,
         color: '#ff0095'
     }
 ]

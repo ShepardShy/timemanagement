@@ -5,7 +5,10 @@
         </template>
         <template v-slot:body>
             <div class="diagram">
-                <div class="pie animate" v-for="task in percents" v-show="task.count != 0" :style="`--pie_percent: ${task.percent}; --c: ${task.color}; z-index: ${task.index}`"></div>
+                <div class="pie__item" v-for="task in percents" v-show="task.count != 0"  :style="`--z: ${task.index}`">
+                    <div class="pie_split animate" :style="`--pie_percent: ${task.percent_split}; --z: ${task.index + 1}`"></div>
+                    <div class="pie animate" :style="`--pie_percent: ${task.percent}; --c: ${task.color}; --z: ${task.index}`"></div>
+                </div>
             </div>
         </template>
     </vSection>
