@@ -1,4 +1,4 @@
-.wheel {
+.organaiser__section.wheel {
     grid-column: 1/3;
 
     &.organaiser__section {
@@ -19,7 +19,69 @@
 
         .diagram {
             top: 45px;
-            left: 305px;
+            left: 335px;
+        }
+
+        .diagram__section {
+            &.diagram__section_active:nth-child(2) {
+                transform: rotate(337.5deg) translateX(30px);
+            }
+            &.diagram__section_active:nth-child(3) {
+                transform: rotate(22.3deg) translateX(30px);
+            }
+            &.diagram__section_active:nth-child(4) {
+                transform: rotate(67.3deg) translateX(30px);
+            }
+            &.diagram__section_active:nth-child(5) {
+                transform: rotate(112deg) translateX(30px);
+            }
+            &.diagram__section_active:nth-child(6) {
+                transform: rotate(157deg) translateX(30px);
+            }
+            &.diagram__section_active:nth-child(7) {
+                transform: rotate(202deg) translateX(30px);
+            }
+            &.diagram__section_active:nth-child(8) {
+                transform: rotate(247deg) translateX(30px);
+            }
+            &.diagram__section_active:nth-child(9) {
+                transform: rotate(292deg) translateX(30px);
+            }
+        }
+
+        .task__progress {
+            &.task__progress_health {
+                top: 165px;
+                left: 730px;
+            }
+            &.task__progress_environment {
+                top: 305px;
+                left: 730px;    
+            }
+            &.task__progress_family {
+                top: 430px;
+                left: 615px;    
+            }
+            &.task__progress_career {
+                top: 430px;
+                left: 385px;    
+            }
+            &.task__progress_finance {
+                top: 305px;
+                left: 285px;    
+            }
+            &.task__progress_spirit {
+                top: 165px;
+                left: 270px;    
+            }
+            &.task__progress_myself {
+                top: 25px;
+                left: 385px;    
+            }
+            &.task__progress_brightness {
+                top: 25px;
+                left: 610px;    
+            }
         }
     }
 }

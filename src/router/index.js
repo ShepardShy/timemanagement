@@ -26,6 +26,11 @@ const routes = [
     name: "Распорядок дня",
     component: () => import("@/views/organaiserDailyPlanner/organaiserDailyPlanner.vue"),
   },
+  {
+    path: "/organaiser/organaiser-wheel",
+    name: "Колесо жизни",
+    component: () => import("@/views/organaiserWheel/organaiserWheel.vue"),
+  },
 ];
 
 const router = createRouter({

@@ -18,18 +18,37 @@
             content: none;
         }
     }
+
+    .pie__item {
+        z-index: var(--z);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
     
     .pie {
         position: absolute;
         border-radius: 50%;
         inset: 0;
+        z-index: var(--z);
         background: radial-gradient(farthest-side, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0)) top/var(--b) var(--b) no-repeat, conic-gradient(var(--c) calc(var(--pie_percent) * 1%), rgba(0, 0, 0, 0) 0);
+        -webkit-mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(99% - var(--b)), #000 calc(100% - var(--b)));
+        mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(99% - var(--b)), #000 calc(100% - var(--b)));
+    }
+
+    .pie_split {
+        position: absolute;
+        border-radius: 50%;
+        inset: 0;
+        z-index: var(--z);
+        --b: 20px;
+        background: radial-gradient(farthest-side, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0)) top/var(--b) var(--b) no-repeat, conic-gradient(#1C1E2A calc(var(--pie_percent) * 1%), rgba(0, 0, 0, 0) 0);
         -webkit-mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(99% - var(--b)), #000 calc(100% - var(--b)));
         mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(99% - var(--b)), #000 calc(100% - var(--b)));
     }
     
     .animate {
-        animation: pie_percent 1s easy-in .5s both;
+        animation: pie_percent 1s linear both;
     }
     
     @keyframes pie_percent {

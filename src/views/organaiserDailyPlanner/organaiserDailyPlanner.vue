@@ -4,7 +4,9 @@
             <pageTitle> {{ $route.name }} </pageTitle>
             <vButton>
                 <template v-slot:title>
-                    Управление
+                    <span>
+                        Управление
+                    </span>
                 </template>
             </vButton>
         </div>

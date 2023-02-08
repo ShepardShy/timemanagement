@@ -1,0 +1,47 @@
+.task__progress {
+    position: absolute;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    &.task__progress_health {
+        color: #FF0000;
+        top: 365px;
+        left: 700px;
+    }
+    &.task__progress_environment {
+        color: #FF7A00;
+        top: 505px;
+        left: 700px;
+    }
+    &.task__progress_family {
+        color: #FFC700;
+        top: 630px;
+        left: 585px;
+    }
+    &.task__progress_career {
+        color: #3CC008;
+        top: 630px;
+        left: 355px;
+    }
+    &.task__progress_finance {
+        color: #38A7F8;
+        top: 505px;
+        left: 255px;
+    }
+    &.task__progress_spirit {
+        color: #1100FF;
+        top: 365px;
+        left: 240px;
+    }
+    &.task__progress_myself {
+        color: #9900FF;
+        top: 225px;
+        left: 355px;
+    }
+    &.task__progress_brightness {
+        color: #FF0095;
+        top: 225px;
+        left: 580px;
+    }
+}

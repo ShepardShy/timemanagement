@@ -5,26 +5,8 @@
         "list": [
             {
                 "id": 0,
-                "title": "Событие 1.1",
+                "title": "Задание 1",
                 "type": "health",
-                "status": true
-            },
-            {
-                "id": 1,
-                "title": "Событие 1.2",
-                "type": "environment",
-                "status": true
-            },
-            {
-                "id": 2,
-                "title": "Событие 1.3",
-                "type": "spirit",
-                "status": true
-            },
-            {
-                "id": 3,
-                "title": "Событие 1.4",
-                "type": "brightness",
                 "status": true
             }
         ]
@@ -32,49 +14,16 @@
     {
         "id": 1,
         "title": "Быстрые",
-        "list": [
-            {
-                "id": 0,
-                "title": "Событие 2.1 lorem asd asda sda sd asd asd asd asda sda sda sdas ",
-                "type": "health",
-                "status": true
-            },
-            {
-                "id": 1,
-                "title": "Событие 2.2",
-                "type": "environment",
-                "status": true
-            }
-        ]
+        "list": []
     },
     {
         "id": 2,
         "title": "Ждущие",
-        "list": [
-            {
-                "id": 0,
-                "title": "Событие 3.1",
-                "type": "health",
-                "status": true
-            }
-        ]
+        "list": []
     },
     {
         "id": 3,
         "title": "Тухлые",
-        "list": [
-            {
-                "id": 2,
-                "title": "Событие 4.3",
-                "type": "spirit",
-                "status": true
-            },
-            {
-                "id": 3,
-                "title": "Событие 4.4",
-                "type": "brightness",
-                "status": true
-            }
-        ]
+        "list": []
     }
 ]

@@ -35,7 +35,9 @@
             />
             <vButton class="fast-add__button" @click="addEvent()">
                 <template v-slot:title>
-                    Добавить
+                    <span>
+                        Добавить
+                    </span>
                 </template>
             </vButton>
         </template>
